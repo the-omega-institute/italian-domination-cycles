@@ -1,0 +1,30 @@
+{
+  "bruteforce_method": "exhaustive values in {0,1,2}^n for n=3..12",
+  "independent_checks_n": [
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12
+  ],
+  "independent_method": "exact integer polynomial powering of the labelled 9-state transfer matrix",
+  "object": "d_I(C_n,k)",
+  "primary_method": "exact integer polynomial powering of D(x)Q, D(x)=diag(1,1,1,x,x^2)",
+  "range": {
+    "k_max": "2*n",
+    "k_min": 0,
+    "n_max": 100,
+    "n_min": 3
+  },
+  "row_lengths": "2*n+1; CSV includes zero coefficients; JSON stores full arrays",
+  "sha256": {
+    "coefficients.csv": "614df082b40bdbac8d5719b4be51e253bd2d98910f21802ed6a28723880c7b52",
+    "coefficients.json": "c1822c846284e88064ed7454d7af1380907b4f30ab0f257056f85faea37f4e31"
+  },
+  "state_matrix": "Q=[[0,0,0,0,1],[0,0,0,1,1],[1,0,0,1,1],[0,1,0,1,1],[0,0,1,1,1]]"
+}
